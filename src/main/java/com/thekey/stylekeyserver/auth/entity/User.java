@@ -54,7 +54,6 @@ public class User extends BaseTimeEntity {
     private String emailVerifiedYn;
 
     @Column(name = "PROFILE_IMAGE_URL", length = 512)
-    @NotNull
     @Size(max = 512)
     private String profileImageUrl;
 
